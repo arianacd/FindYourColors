@@ -22,7 +22,7 @@ let saturationExponentBottom:Float = 1.3
 let grayPaletteHeightFactor: CGFloat = 0.1
 var rect_grayPalette = CGRect.zero
 var rect_mainPalette = CGRect.zero
-
+// test
 // adjustable
 var elementSize: CGFloat = 1.0 {
     didSet {
