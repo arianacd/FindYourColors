@@ -81,6 +81,7 @@ class ViewController: UIViewController {
     @IBAction func undo(_ sender: UIButton) {
         currentPosition -= 1
         chosenColors[currentPosition].backgroundColor = UIColor.lightGray
+        colors.removeLast()
 
         
     }
