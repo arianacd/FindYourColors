@@ -20,13 +20,14 @@ class NewPaletteViewController: UIViewController {
     @IBAction func cancel(_ sender: UIBarButtonItem) {
     }
     
-    @IBOutlet weak var paletteContents: UITextView!
+    
+    
     var paletteEntry: Palette?
     override func viewDidLoad() {
         super.viewDidLoad()
                 if let paletteEntry = paletteEntry {
                     navigationItem.title = paletteEntry.name
-                    paletteContents.text = paletteEntry.name
+                    
                     
                     
  
