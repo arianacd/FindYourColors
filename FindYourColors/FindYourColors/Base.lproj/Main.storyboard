@@ -76,23 +76,21 @@
                                                     <constraint firstAttribute="height" constant="130" id="vlg-Jb-4CS"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rhf-fd-tMg">
-                                                <rect key="frame" x="0.0" y="300" width="130" height="130"/>
-                                                <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="130" id="5vb-xu-UkK"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="A0o-fe-fqo"/>
-                                                    <constraint firstAttribute="width" constant="130" id="te2-y9-I8q"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="vtc-Bj-pkv"/>
-                                                </constraints>
-                                            </view>
                                             <view tag="6" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2K-Se-hbb">
-                                                <rect key="frame" x="0.0" y="450" width="130" height="130"/>
+                                                <rect key="frame" x="0.0" y="300" width="130" height="130"/>
                                                 <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="130" id="IJN-m3-MnA"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="jl5-BX-VL0"/>
                                                     <constraint firstAttribute="width" constant="130" id="owp-UK-GCM"/>
+                                                </constraints>
+                                            </view>
+                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wP-yd-Rp1">
+                                                <rect key="frame" x="0.0" y="450" width="130" height="130"/>
+                                                <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="dXy-Rx-Vtl"/>
+                                                    <constraint firstAttribute="height" constant="130" id="njo-Cu-DB0"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -116,20 +114,22 @@
                                                     <constraint firstAttribute="width" constant="130" id="gwr-wC-GMJ"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wP-yd-Rp1">
-                                                <rect key="frame" x="0.0" y="300" width="130" height="130"/>
-                                                <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="130" id="dXy-Rx-Vtl"/>
-                                                    <constraint firstAttribute="height" constant="130" id="njo-Cu-DB0"/>
-                                                </constraints>
-                                            </view>
                                             <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4U-uD-jl6">
-                                                <rect key="frame" x="0.0" y="450" width="130" height="130"/>
+                                                <rect key="frame" x="0.0" y="300" width="130" height="130"/>
                                                 <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="130" id="E7u-te-idZ"/>
                                                     <constraint firstAttribute="width" constant="130" id="mbb-Ms-Wy2"/>
+                                                </constraints>
+                                            </view>
+                                            <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rhf-fd-tMg">
+                                                <rect key="frame" x="0.0" y="450" width="130" height="130"/>
+                                                <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="130" id="5vb-xu-UkK"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="A0o-fe-fqo"/>
+                                                    <constraint firstAttribute="width" constant="130" id="te2-y9-I8q"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="vtc-Bj-pkv"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -150,10 +150,10 @@
                         <outletCollection property="colorviews" destination="g58-Me-IPZ" collectionClass="NSMutableArray" id="i08-YB-gFV"/>
                         <outletCollection property="colorviews" destination="bQn-zK-czf" collectionClass="NSMutableArray" id="aiO-HF-8mc"/>
                         <outletCollection property="colorviews" destination="Yhp-fz-SqG" collectionClass="NSMutableArray" id="orN-p1-t1M"/>
-                        <outletCollection property="colorviews" destination="1wP-yd-Rp1" collectionClass="NSMutableArray" id="iNF-tF-GrQ"/>
-                        <outletCollection property="colorviews" destination="Rhf-fd-tMg" collectionClass="NSMutableArray" id="BOd-wd-kHw"/>
                         <outletCollection property="colorviews" destination="U2K-Se-hbb" collectionClass="NSMutableArray" id="Am4-SO-YCs"/>
                         <outletCollection property="colorviews" destination="A4U-uD-jl6" collectionClass="NSMutableArray" id="vhn-wY-8Ff"/>
+                        <outletCollection property="colorviews" destination="1wP-yd-Rp1" collectionClass="NSMutableArray" id="iNF-tF-GrQ"/>
+                        <outletCollection property="colorviews" destination="Rhf-fd-tMg" collectionClass="NSMutableArray" id="BOd-wd-kHw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cmX-Fw-Rat" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
